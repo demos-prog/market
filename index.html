@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/null_styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Shop</title>
+</head>
+
+<body>
+
+  <div class="content">
+
+    <header class="header sticky">
+
+      <div class="header__TopBar">
+        <ul class="header__TopBar_login">
+          <li class="rline"><a href="#">Login/ Singup</a></li>
+          <li><a href="#">USD</a></li>
+        </ul>
+        <ul class="header__TopBar_help">
+          <li class="rline"><a href="#">Help</a></li>
+          <li class="rline licon"><a href="#">Wishlist</a></li>
+          <li><a href="#">English</a></li>
+        </ul>
+        <a href="#" class="header__TopBar_link">DOWNLOAD APP</a>
+      </div>
+
+      <div class="midleBar">
+        <div class="midleBar__logo">
+          <a href="#">SuperMart</a>
+        </div>
+        <form class="midleBar__form">
+          <input type="search" class="midleBar__form_search" placeholder="Search...">
+          <div class="categories">
+            <select>
+              <option>All categories</option>
+              <option>cat-1</option>
+              <option>cat-2</option>
+              <option>cat-3</option>
+            </select>
+          </div>
+          <input type="button" class="midleBar__form_btn">
+        </form>
+        <div class="midleBar__zakaz">
+          <p>0 items:
+          <h5 style="color:blue">$0.00</h5>
+          </p>
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <a href="#" class="navigation__btn">DEPARTMENTS</a>
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link">HOME</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">SHOP</a></li>
+          <li class="navigation__item hot"><a href="#" class="navigation__link">FASHION</a></li>
+          <li class="navigation__item new"><a href="#" class="navigation__link">ELECTRONICS</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">PAGES</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">FEATURES</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">BLOG</a></li>
+        </ul>
+        <div class="navigation__contact">CALL US FREE:<mark>1-800-777-7889</mark></div>
+      </nav>
+
+    </header>
+    
+    <div class="breadcrums">
+      <h1>Shop Sidebar List</h1>
+      <p><b><a href="#">Home</a> / <a href="#">Shop</a> /</b> Shop Sidebar list</p>
+    </div>
+
+    <div class="mainCont">
+
+      <aside class="aside">
+        <h1 class="aside__title">Categories</h1>
+        <ul class="aside__categories">
+          <li class="aside__item"><a href="#">Fashion Clothing (128)</a><input class="plusBtn" type="button" value="+">
+          </li>
+          <li class="aside__item"><a href="#">Mobile Phones (89)</a></li>
+          <li class="aside__item"><a href="#">Electronics & Hitech (205)</a><input class="plusBtn" type="button"
+              value="+"></li>
+          <li class="aside__item"><a href="#">Foods & Fruits (118)</a></li>
+          <li class="aside__item"><a href="#">Beauty & Health (45)</a><input class="plusBtn" type="button" value="+">
+          </li>
+          <li class="aside__item"><a href="#">Shoes & Bags (23)</a><input class="plusBtn" type="button" value="+"></li>
+          <li class="aside__item"><a href="#">Decors & Home (19)</a></li>
+          <li class="aside__item"><a href="#">Sports & Outerwear (34)</a></li>
+        </ul>
+
+        <h1 class="aside__title" style="background-color: #fff; border: none;">FILTER BY</h1>
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Brands</button>
+          <div id="myDropdown" class="dropdown-content">
+            <input type="checkbox" class="checB" id="checkbox_id1"><label for="checkbox_id1">Adcom</label>
+            <input type="checkbox" class="checB" id="checkbox_id2"><label for="checkbox_id2">Brillon</label>
+            <input type="checkbox" class="checB" id="checkbox_id3"><label for="checkbox_id3">Datawind</label>
+            <input type="checkbox" class="checB" id="checkbox_id4"><label for="checkbox_id4">GoodOne</label>
+            <input type="checkbox" class="checB" id="checkbox_id5"><label for="checkbox_id5">i-Smart</label>
+            <input type="checkbox" class="checB" id="checkbox_id6"><label for="checkbox_id6">Kenxinda</label>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="myFunction1()" class="dropbtn">Price</button>
+          <div id="myDropdown1" class="dropdown-content">
+            <input type="checkbox" class="checB" id="checkbox_id7"><label for="checkbox_id1">Under $50</label>
+            <input type="checkbox" class="checB" id="checkbox_id8"><label for="checkbox_id2">$50-$100</label>
+            <input type="checkbox" class="checB" id="checkbox_id9"><label for="checkbox_id3">$100-$200</label>
+            <input type="checkbox" class="checB" id="checkbox_id10"><label for="checkbox_id4">$200-$500</label>
+            <input type="checkbox" class="checB" id="checkbox_id11"><label for="checkbox_id5">Above $500</label>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="myFunction2()" class="dropbtn">colour</button>
+          <div id="myDropdown2" class="dropdown-content colors">
+            <div class="color black"></div>
+            <div class="color blue"></div>
+            <div class="color broun"></div>
+            <div class="color teal"></div>
+            <div class="color grey"></div>
+            <div class="color green"></div>
+            <div class="color orange"></div>
+            <div class="color pink"></div>
+            <div class="color yelow"></div>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="main">
+
+        <div class="main__subheader">
+          <span>Showing 1-7 of 24 Products</span>
+          <div class="selector">
+            <select class="selector__numb">
+              <option>all</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+            <select class="selector__sort">
+              <option>DEFAULT SORTING</option>
+              <option>weight</option>
+              <option>color</option>
+              <option>price</option>
+            </select>
+            <div class="selector__view">
+              <input type="button" class="selector__view_left">
+              <input type="button" class="selector__view_right">
+            </div>
+          </div>
+        </div>
+
+        <div class="main__items">
+
+          <div class="item">
+            <img class="item__img" src="img/airpuf.JPG" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title sale">Cillcips Air Purifier A215</div>
+              <div class="item__discr_price">$256.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/HalogenRoomHandwear.jpg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title mnew">Halogen Room Handwear</div>
+              <div class="item__discr_price">$155.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/ActiveShaveLotion.jpg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title">Active Shave Lotion 100 ml</div>
+              <div class="item__discr_price">$78.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/SloovenStrippedT-shirt.jpeg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title sale">Slooven Stripped T-shirt</div>
+              <div class="item__discr_price">$99.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/MicrosoftLumiaU169.jpg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title">Microsoft Lumia U169</div>
+              <div class="item__discr_price">$499.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/ZexonBrandMen’swatch.jpg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title sale">Zexon Brand Men’s watch</div>
+              <div class="item__discr_price">$199.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="item__img" src="img/PlasticSteelFlask(750ml).jpg" alt="1">
+            <div class="item__discr">
+              <div class="item__discr_title mnew">Plastic Steel Flask(750ml)</div>
+              <div class="item__discr_price">$55.00</div>
+              <div class="item__discr_stars"></div>
+              <div class="item__discr_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore beatae,
+                mollitia pariatur quo consequuntur accusamus eaque accusantium consequatur ut voluptates reprehenderit
+                et provident unde fugiat, tenetur quaerat dolore ratione tempore!
+                Tempora iure, magnam itaque adipisci aspernatur beatae impedit quibusdam minus corporis corrupti sed
+                eligendi perspiciatis, ipsum illo culpa illum! In harum animi quaerat recusandae voluptates labore ipsa
+                dolorum assumenda quod!
+                Dignissimos tempora quo magnam accusamus odio? Ipsa est dolor asperiores distinctio molestiae!
+                Perferendis quisquam, at est, asperiores, necessitatibus obcaecati ex blanditiis repellat odit magnam
+                dicta mollitia corrupti libero labore voluptas.
+                Eos magnam numquam quam doloribus explicabo nisi aut corporis, odio fugiat, omnis error dolor
+                consectetur consequatur, eligendi itaque hic tempore ipsam! Ea, maiores dolorum aut officiis tempora
+                voluptates possimus obcaecati.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cum
+                ad ipsam, unde quod veritatis possimus veniam incidunt molestias illo, exercitationem natus nesciunt.
+                Maiores, exercitationem alias illo soluta maxime aut?
+                Recusandae quod numquam delectus ipsa. Sapiente, praesentium temporibus. Nesciunt debitis deleniti fuga
+                reprehenderit. Pariatur distinctio ad possimus ab minima commodi vel consequatur, praesentium quidem
+                maxime, molestias accusamus tempora, unde nobis.
+                Sequi voluptatibus maxime blanditiis reprehenderit odit consequatur, deleniti eum cumque quod corporis
+                voluptatem possimus eius tempora voluptates nobis? Delectus labore distinctio culpa est ullam quaerat.
+                Consectetur eligendi maxime amet inventore?
+              </div>
+              <div class="item__discr_btns">
+                <input type="button" class="add-btn" value="ADD TO CART">
+                <input type="button" class="like-btn">
+                <input type="button" class="share-btn">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pagination">
+          <div class="pagination__item dark">1</div>
+          <div class="pagination__item">2</div>
+          <div class="pagination__item">3</div>
+          <div class="pagination__item arrow"></div>
+        </div>
+
+      </main>
+    </div>
+
+    <footer class="footer">
+
+      <div class="features">
+        <div class="features__item">
+          <img class="features__item_img" src="img/features-item1.svg">
+          <div class="features__item_title">FREE SHIPPING</div>
+          <div class="features__item_text">Free Shipping on World wide Order
+            Over $99.</div>
+        </div>
+
+        <div class="features__item">
+          <img class="features__item_img" src="img/features-item2.svg">
+          <div class="features__item_title">Trusted Pay</div>
+          <div class="features__item_text">100% Payment Protection &
+            Easy Return</div>
+        </div>
+
+        <div class="features__item">
+          <img class="features__item_img" src="img/features-item3.svg">
+          <div class="features__item_title">Secured Payment</div>
+          <div class="features__item_text">All Major Credit & Debit Cards
+            Accepted</div>
+        </div>
+
+        <div class="features__item">
+          <img class="features__item_img" src="img/features-item4.svg">
+          <div class="features__item_title">Shop on app</div>
+          <div class="features__item_text">Just Dowload our App & Shop
+            With Best Offers!</div>
+        </div>
+      </div>
+
+      <div class="Newsletter">
+        <img src="img/letter.svg" class="Newsletter__img">
+        <div class="Newsletter__title">SIGNUP TO
+          NEWSLETTER
+        </div>
+        <form class="Newsletter__form">
+          <input type="email" class="midleBar__form_search" placeholder="Enter Your Email Address">
+          <input type="button" value="SUBMIT">
+        </form>
+        <div class="Newsletter__text">KEEP IN TOUCH</div>
+        <div class="Newsletter__icons">
+          <a href="#"><img src="img/twitter.svg" class="Newsletter__icons_icon"></a>
+          <a href="#"><img src="img/facebook.svg" class="Newsletter__icons_icon"></a>
+          <a href="#"><img src="img/telegr.svg" class="Newsletter__icons_icon"></a>
+          <a href="#"><img src="img/amaz.svg" class="Newsletter__icons_icon"></a>
+          <a href="#"><img src="img/viber.svg" class="Newsletter__icons_icon"></a>
+        </div>
+      </div>
+
+      <div class="about">
+
+        <div class="about__all">
+          <div class="midleBar__logo botLogo">
+            <a href="#">SuperMart</a>
+          </div>
+          <p>Many say exploration is part of our dest but it’s actually our </p>
+          <p><b>Address:</b> 868 Fake Street, New York</p>
+          <p><b>Phone:</b> (08) 08 4752 1499</p>
+          <p><b>Email:</b> info@supermart.com</p>
+        </div>
+
+        <div class="about__block">
+          <h1>COMPANY</h1>
+          <a href="#">Discount Vouches</a>
+          <a href="#">Spring Collection</a>
+          <a href="#">Trending</a>
+          <a href="#">Best Sellers</a>
+          <a href="#">Special Deals</a>
+        </div>
+
+        <div class="about__block">
+          <h1>POLICY INFO</h1>
+          <a href="#">Orders & Returns</a>
+          <a href="#">Advanced Search</a>
+          <a href="#">Help & FAQs</a>
+          <a href="#">Consultant</a>
+          <a href="#">Store Locations</a>
+        </div>
+
+        <div class="about__block">
+          <h1>My Account</h1>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Custom Link</a>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <p>© Copyright - Supermart Template by DesignFalls</p>
+      </div>
+
+    </footer>
+
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
