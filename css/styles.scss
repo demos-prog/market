@@ -183,15 +183,16 @@ sans-serif;
     background-color: yellow;
     height: 100%;
     position: relative;
-    padding: 19px;
+    padding: 19px 50px 19px 19px;
 
     &::after {
       content: "";
-      width: 55px;
-      height: 55px;
-      top: 0;
-      left: 141px;
-      background-image: url(../img/menu.svg);
+      width: 20px;
+      height: 20px;
+      top: 18px;
+      left: 153px;
+      background-image: url(../img/menu-button_icon-icons.com_72989.svg);
+      background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       position: absolute;
@@ -555,7 +556,7 @@ input:disabled+label:before {
       height: 15px;
       width: 55px;
       margin-bottom: 17px;
-      background-image: url(../img/stars.svg);
+      background-image: url(../img/christmas-star_112199.svg);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center left;
@@ -646,16 +647,18 @@ input:disabled+label:before {
 .like-btn {
   margin-right: 10px;
   width: 36px;
-  background-image: url(../img/heart.svg);
-  background-size: inherit;
+  background-color: #fff;
+  background-image: url(../img/hearts_heart_love_favorite_5565.ico);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .share-btn {
   width: 36px;
-  background-image: url(../img/share.svg);
-  background-size: inherit;
+  background-color: #fff;
+  background-image: url(../img/sharing_share_icon_124236.ico);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -785,7 +788,10 @@ input:disabled+label:before {
   background-color: rgb(47, 130, 255);
 
   &__img {
+    width: 30px;
+    height: 25px;
     margin: 0 20px;
+    object-fit: contain;
   }
 
   &__title {
